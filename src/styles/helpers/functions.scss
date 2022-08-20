@@ -1,0 +1,8 @@
+// function for convert PX to REM
+@use "sass:math";
+
+@function re-c($value) {
+  $remValue: math.div($value, 16) + rem;
+
+  @return $remValue;
+}
