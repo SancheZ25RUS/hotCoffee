@@ -1,7 +1,17 @@
-// import base project files
-@import "./base/vars";
-@import "./base/fonts";
+// import libs
+@import "./vendors/libs";
 
-// import helpers
+// import functions
 @import "./helpers/functions";
-@import "./helpers/mixins"
+
+// import project help-files
+@import "./base/fonts";
+@import "./base/vars";
+@import "./helpers/mixins";
+
+// common styles
+@import "./base/general";
+@import "./base/typography";
+
+// components
+@import "./components/header";

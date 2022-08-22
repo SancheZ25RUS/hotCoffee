@@ -1,0 +1,20 @@
+.page {
+  &__body {
+    font: 400 re-c(14) var(--fontInter);
+    color: var(--textColorBase);
+  }
+}
+
+.header {
+  &__logo {
+    font: 700 re-c(20) var(--fontInter);
+    color: var(--black);
+  }
+}
+
+.nav {
+  &__link {
+    font: 400 re-c(16) var(--fontInter);
+    color: var(--black);
+  }
+}

@@ -1,8 +1,36 @@
 doctype html
-html(lang="en")
+html(lang="en").page
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="./css/main.min.css")
     title Document
-  body
+  body.page__body
+    header.header
+      .container.header__container
+        a(href="#").header__logo  HotCoffee
+        .header__search-wrap
+          input(type="text" placeholder="Search...").header__search-input
+        .header__inner
+          nav.nav.header__nav
+            ul.nav__list
+              li.nav__item
+                a(href="#").nav__link Home
+              li.nav__item
+                a(href="#").nav__link Articles
+            ul.nav__social-list
+              li.nav__social-item
+                a(href="#").nav__social-item
+                  svg.nav__social-icon
+                    use(xlink:href="./img/icons/icons.svg#instagram")
+              li.nav__social-item
+                a(href="#").nav__social-item
+                  svg.nav__social-icon
+                    use(xlink:href="./img/icons/icons.svg#twitter")
+              li.nav__social-item
+                a(href="#").nav__social-item
+                  svg.nav__social-icon
+                    use(xlink:href="./img/icons/icons.svg#linkedin")
+    main.main
+    footer.footer

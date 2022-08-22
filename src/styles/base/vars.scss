@@ -1,3 +1,14 @@
 :root {
-  --fontNameInter: "Inter", sans-serif;
+  // font
+  --fontInter: "Inter", sans-serif;
+
+  // colors
+  --black: #000;
+  --textColorBase: #718096;
+  --textColorHeaders: #2d3748;
+  --svgColor: #454444;
 }
+
+// Media queries
+$mediaWidthTablet: 768px;
+$mediaWidthTabletHorizontal: 1024px;
