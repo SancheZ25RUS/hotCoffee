@@ -1,0 +1,51 @@
+.article {
+  &__img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  &__header {
+    border-bottom: 1px solid var(--borderColor);
+    padding: re-c(40) 0 re-c(30);
+  }
+
+  &__inner {
+    position: relative;
+    padding: 0 re-c(100);
+  }
+
+  &__title {
+    margin-bottom: re-c(20);
+  }
+
+  &__author {
+    padding-right: re-c(25);
+  }
+
+  &__text-content {
+    padding: re-c(45) 0;
+
+    > p {
+      margin-bottom: re-c(25);
+    }
+  }
+
+  &__author,
+  &__date {
+    display: inline-block;
+  }
+}
+
+.button-scroll {
+  position: absolute;
+  right: re-c(10);
+  bottom: re-c(80);
+
+  &__arrow {
+    display: block;
+    width: re-c(50);
+    height: re-c(50);
+    fill: var(--accentColor);
+    transform: rotateZ(180deg);
+  }
+}

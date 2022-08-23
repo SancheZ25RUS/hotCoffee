@@ -1,16 +1,3 @@
-// Mixins for media queries
-// @mixin media-mobile-plus {
-//   @media (min-width: $mediaWidthMobilePlus) {
-//     @content;
-//   }
-// }
-
-// @mixin media-mobile-xxl {
-//   @media (min-width: $mediaWidthMobileXXL) {
-//     @content;
-//   }
-// }
-
 @mixin media-tablet {
   @media (max-width: $mediaWidthTablet) {
     @content;
@@ -22,21 +9,3 @@
     @content;
   }
 }
-
-// @mixin media-laptop {
-//   @media (min-width: $mediaWidthLaptop) {
-//     @content;
-//   }
-// }
-
-// @mixin media-Hd {
-//   @media (min-width: $mediaWidthHd) {
-//     @content;
-//   }
-// }
-
-// @mixin media-custom($width) {
-//   @media (min-width: $width) {
-//     @content;
-//   }
-// }

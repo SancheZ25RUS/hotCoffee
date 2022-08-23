@@ -84,3 +84,27 @@
     font: 700  re-c(16) var(--fontInter);
   }
 }
+
+.article {
+  &__title {
+    font: 700 re-c(45) var(--fontInter);
+    color: var(--textColorHeaders);
+  }
+
+  &__author {
+    font: 700 re-c(18) var(--fontInter);
+    color: var(--textColorHeaders);
+  }
+
+  &__text-content {
+    > h2,
+    h3 {
+      margin: re-c(25) 0;
+      color: var(--textColorHeaders);
+    }
+
+    > h3 {
+      font-style: italic;
+    }
+  }
+}
