@@ -1,0 +1,34 @@
+.highlight {
+  display: flex;
+
+  &__wrap-text {
+    display: flex;
+    flex-shrink: 5;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 re-c(65);
+
+    @include media-tablet {
+      flex-shrink: 2;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: re-c(25);
+  }
+
+  &__description {
+    margin-bottom: re-c(30);
+  }
+
+  &__img {
+    height: auto;
+    max-width: 100%;
+  }
+}

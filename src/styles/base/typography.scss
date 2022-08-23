@@ -54,3 +54,19 @@
     color: var(--textColorHeaders);
   }
 }
+
+.highlight {
+  &__title {
+    font: 700 re-c(40) var(--fontInter);
+    color: var(--black);
+  }
+
+  &__description {
+    font: 400 re-c(16) var(--fontInter);
+  }
+
+  &__link {
+    font: 700 re-c(16) var(--fontInter);
+    color: var(--black);
+  }
+}
