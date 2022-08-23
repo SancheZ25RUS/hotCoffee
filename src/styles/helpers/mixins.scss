@@ -11,11 +11,11 @@
 //   }
 // }
 
-// @mixin media-tablet {
-//   @media (min-width: $mediaWidthTablet) {
-//     @content;
-//   }
-// }
+@mixin media-tablet {
+  @media (max-width: $mediaWidthTablet) {
+    @content;
+  }
+}
 
 @mixin media-tablet-horizontal {
   @media (max-width: $mediaWidthTabletHorizontal) {

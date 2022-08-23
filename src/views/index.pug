@@ -16,9 +16,9 @@ html(lang="en").page
           nav.nav.header__nav
             ul.nav__list
               li.nav__item
-                a(href="#").nav__link Home
+                a(href="#").nav__link.awesome-effect-link Home
               li.nav__item
-                a(href="#").nav__link Articles
+                a(href="#").nav__link.awesome-effect-link Articles
             ul.nav__social-list
               li.nav__social-item
                 a(href="#").nav__social-item
@@ -34,11 +34,20 @@ html(lang="en").page
                     use(xlink:href="./img/icons/icons.svg#linkedin")
     main.main
       .container
-        section.offer
+        section.section.offer
           .offer__text-wrap
             h1.offer__title Make better
               br
               span.offer__title--coffee coffee
             span.offer__description why learn how to blog?
           img(src="./img/offer/offer-image.jpg" alt="Абстракция двух мужчин и женщины с усами" srcset="").offer__img
+        section.section.details
+          .details__text-wrap
+            h2.details__title Long established
+            p.detaild__text It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....
+            .details__inner
+              p.details__date May 20th 2020
+              a(href="#").details__link.awesome-effect-link Read more
+          .details__image-wrap
+            img(src="./img/details/sashka.jpg" alt="Довольный Сашка с \"Универа\" радуется планшету, который подарил папа")
     footer.footer

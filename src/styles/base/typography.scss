@@ -29,3 +29,16 @@
     font: 400 re-c(30) var(--fontInter);
   }
 }
+
+.details {
+  &__title {
+    font: 700 re-c(30) var(--fontInter);
+    color: var(--textColorHeaders);
+  }
+
+  &__link {
+    vertical-align: baseline;
+    font: 700 re-c(12) var(--fontInter);
+    color: var(--textColorHeaders);
+  }
+}

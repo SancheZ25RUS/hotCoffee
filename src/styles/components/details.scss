@@ -1,0 +1,41 @@
+.details {
+  display: flex;
+  border: 1px solid #e2e2e2;
+  border-radius: re-c(5);
+  gap: re-c(75);
+
+  &__text-wrap {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 re-c(50);
+
+    @include media-tablet {
+      padding: re-c(20) 15%;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__image-wrap {
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    max-width: 100%;
+
+    @include media-tablet {
+      padding: re-c(20) 10%;
+    }
+  }
+
+  @include media-tablet {
+    flex-direction: column;
+    align-items: center;
+    gap: initial;
+  }
+}

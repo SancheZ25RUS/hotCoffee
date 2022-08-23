@@ -7,6 +7,10 @@
   }
 }
 
+.section {
+  margin-bottom: re-c(40);
+}
+
 .main {
   padding-top: re-c(74);
 }
@@ -18,4 +22,32 @@ button {
 
 a {
   text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.awesome-effect-link {
+  position: relative;
+  padding: re-c(5);
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: calc(100% - re-c(10));
+    height: re-c(1);
+    background-color: transparent;
+    transition: translate 0.5s, background-color 0.5s;
+    translate: 0 re-c(-5);
+  }
+
+  &:hover {
+    &::after {
+      background-color: var(--black);
+      transition: translate 0.5s, background-color 0.5s;
+      translate: 0 0;
+    }
+  }
 }

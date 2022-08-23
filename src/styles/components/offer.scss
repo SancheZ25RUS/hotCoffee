@@ -33,7 +33,7 @@
     }
   }
 
-  @media screen and (max-width: re-c(850)) {
+  @include media-tablet {
     flex-direction: column;
     align-items: center;
     justify-content: center;
