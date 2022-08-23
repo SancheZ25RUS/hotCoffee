@@ -2,15 +2,14 @@
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 1;
+  padding: re-c(15) 0;
+  box-shadow: re-c(1) re-c(-3) re-c(5) re-c(2);
+  background-color: var(--white);
 
   &__container {
     display: flex;
     justify-content: space-between;
-
-    @include media-tablet-horizontal {
-      margin: 0 auto;
-      max-width: re-c(980);
-    }
   }
 
   &__logo {
