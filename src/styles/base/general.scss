@@ -1,5 +1,14 @@
 .container {
-  padding: 0 re-c(5);
+  margin: 0 auto;
+  max-width: re-c(980);
+
+  @include media-tablet-horizontal {
+    padding: 0 re-c(5);
+  }
+}
+
+.main {
+  padding-top: re-c(74);
 }
 
 button {
