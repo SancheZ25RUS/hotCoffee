@@ -1,0 +1,28 @@
+.expand {
+  display: flex;
+  justify-content: end;
+}
+
+.button-expand {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-radius: re-c(5);
+  padding: re-c(10);
+  background-color: var(--accentColor);
+  transition: translate 0.5s;
+  cursor: pointer;
+  gap: re-c(10);
+
+  &__arrow {
+    width: re-c(20);
+    height: re-c(20);
+    fill: var(--white);
+  }
+
+  &:hover {
+    box-shadow: 0 re-c(2) #c1c1c1;
+    transition: all 0.5s;
+    translate: 0 re-c(-2);
+  }
+}
