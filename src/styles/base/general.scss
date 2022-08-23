@@ -51,3 +51,20 @@ img {
     }
   }
 }
+
+.social-list {
+  display: flex;
+  gap: re-c(30);
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    display: block;
+    width: re-c(25);
+    height: re-c(25);
+    fill: var(--svgColor);
+  }
+}

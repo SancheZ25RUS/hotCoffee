@@ -67,22 +67,4 @@
     display: flex;
     align-items: center;
   }
-
-  // Social links
-  &__social-list {
-    display: flex;
-    gap: re-c(30);
-  }
-
-  &__social-item {
-    display: flex;
-    align-items: center;
-  }
-
-  &__social-icon {
-    display: block;
-    width: re-c(25);
-    height: re-c(25);
-    fill: var(--svgColor);
-  }
 }
