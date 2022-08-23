@@ -75,3 +75,12 @@
   font: 700 re-c(16) var(--fontInter);
   color: var(--white);
 }
+
+.footer {
+  font: 400 re-c(16) var(--fontInter);
+  color: var(--black);
+
+  &__brand {
+    font: 700  re-c(16) var(--fontInter);
+  }
+}
