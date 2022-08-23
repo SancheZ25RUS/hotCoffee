@@ -6,6 +6,5 @@ dist
 yarn.lock
 package-lock.json
 version.json
-gulp/config/data.js
 yarn-error.log
 migrations/
