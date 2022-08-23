@@ -42,3 +42,15 @@
     color: var(--textColorHeaders);
   }
 }
+
+.card {
+  &__title {
+    font: 700 re-c(20) var(--fontInter);
+    color: var(--textColorHeaders);
+  }
+
+  &__link {
+    font: 700 re-c(12) var(--fontInter);
+    color: var(--textColorHeaders);
+  }
+}

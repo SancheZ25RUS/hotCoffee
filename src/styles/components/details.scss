@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 0 0 re-c(50);
+    gap: re-c(30);
 
     @include media-tablet {
       padding: re-c(20) 15%;
