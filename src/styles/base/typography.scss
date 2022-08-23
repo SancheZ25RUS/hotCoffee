@@ -18,3 +18,14 @@
     color: var(--black);
   }
 }
+
+.offer {
+  &__title {
+    font: 700 re-c(60) var(--fontInter);
+    color: var(--black);
+  }
+
+  &__description {
+    font: 400 re-c(30) var(--fontInter);
+  }
+}
